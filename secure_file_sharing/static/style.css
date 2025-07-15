@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+h2 {
+    margin-top: 40px;
+    font-size: 2.8rem;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Upload Form */
+form {
+    margin-top: 30px;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Input Field Transparent Look */
+input[type="file"] {
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #e0e0e0;
+    width: 100%;
+    backdrop-filter: blur(4px);
+}
+
+/* Style the Choose File Button */
+input[type="file"]::file-selector-button {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background: linear-gradient(to right, #16222a, #3a6073);
+    transform: translateY(-2px);
+}
+
+/* Upload Button Consistent Color */
+button {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* File List */
+h3 {
+    margin-top: 50px;
+    font-size: 1.8rem;
+    color: #ffffff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    max-width: 600px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.07);
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Links */
+a {
+    color: #80d0c7;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
