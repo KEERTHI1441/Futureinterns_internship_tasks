@@ -73,11 +73,11 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ## 📸 Screenshots
 
-### 📅 Before Date Selected
+### Uploading file to encrypt
 
 ![Uploading file to encrypt](./assets/uploading.PNG)
 
-### ✅ After Date Selected
+### Decrypting the file while downloading
 
 ![Decrypting the file while downloading](./assets/downloading.png)
 
