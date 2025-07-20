@@ -4,8 +4,11 @@ from encryption import encrypt_file, decrypt_file
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'
-UPLOAD_FOLDER = 'uploads'
-DECRYPTED_FOLDER = 'decrypted'
+# UPLOAD_FOLDER = 'uploads'
+# DECRYPTED_FOLDER = 'decrypted'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')
+DECRYPTED_FOLDER = os.path.join(BASE_DIR, 'decrypted')
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(DECRYPTED_FOLDER, exist_ok=True)

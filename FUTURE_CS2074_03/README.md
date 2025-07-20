@@ -71,9 +71,21 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
 
+## 📸 Screenshots
+
+### 📅 Before Date Selected
+
+![Uploading file to encrypt](./assets/uploading.PNG)
+
+### ✅ After Date Selected
+
+![Decrypting the file while downloading](./assets/downloading.png)
+
+---
+
 ## 📹 Walkthrough Video
 
-*A short walkthrough video link goes here.*
+[Walkthrough Video](https://www.loom.com/share/31c4a908712f4a67b094dd0bf759222b?sid=78a137cb-e08a-4610-81c2-8bb0683ef2c5)
 
 ---
 
